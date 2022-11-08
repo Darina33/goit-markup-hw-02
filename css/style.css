@@ -17,6 +17,7 @@
   --black: #000000;
   --button-focus: #188ce8;
   --hero-color: #2f303a;
+  --color-address: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--white-color);
@@ -102,7 +103,6 @@ body {
 
 button {
   font-family: inherit;
-  cursor: pointer;
 }
 
 /* Section */
@@ -150,7 +150,7 @@ button {
   text-align: center;
 }
 
-.section .command {
+.section.command {
   background-color: var(--color-filter-button);
 }
 
@@ -172,6 +172,8 @@ button {
   height: 50px;
   left: 692px;
   top: 430px;
+
+  cursor: pointer;
 }
 
 .button:hover,
@@ -206,7 +208,7 @@ button {
 }
 
 .address .line {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-address);
 
   line-height: 1.71;
   text-decoration: none;
@@ -228,6 +230,7 @@ button {
   height: 38px;
   left: 957px;
   top: 174px;
+  cursor: pointer;
 }
 
 .filter-button:hover,
