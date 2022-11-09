@@ -18,6 +18,7 @@
   --button-focus: #188ce8;
   --hero-color: #2f303a;
   --color-address: rgba(255, 255, 255, 0.6);
+  --border-color: #eeeeee;
 }
 body {
   background-color: var(--white-color);
@@ -262,4 +263,8 @@ a {
 
   font-size: 16px;
   line-height: 1.88;
+}
+
+.portfolio-card {
+  border: 1px solid var(--border-color);
 }
