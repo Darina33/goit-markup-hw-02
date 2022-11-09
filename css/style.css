@@ -213,7 +213,7 @@ button {
 .address .place:focus,
 .address .line:hover,
 .address .line:focus {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 
 .address .line {
